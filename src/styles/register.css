@@ -1,0 +1,88 @@
+
+.flex{
+    display: flex;
+}
+
+
+body{
+        background-image: url(/src/img/background-destaque.webp);
+    }
+
+main{
+    justify-content: center;
+    align-items: center;
+}
+
+#registerBox{
+    width: 601px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#registerBox form{
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#registerBox h3{
+    width: 91px;
+    height: 22px;
+    font-family:  "Cormorant", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #f3f3f3;
+    margin: 20px 0 53px 0;
+}
+
+#registerBox input{
+    width: 246px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    margin-bottom: 19px;
+    border: none;
+    padding-left: 5px;
+}
+
+#registerBox button{
+    width: 132px;
+    height: 42px;
+    background-color: #0d478f;
+    border-radius: 5px;
+    font-family: "Cormorant", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f3f3;
+    border: none;
+    margin-top: 10px;
+}
+
+header nav{
+    margin: 10px;
+}
+header a{
+    width: 97px;
+    background-color: #0d478f;
+    text-decoration: none; 
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+header a:hover{
+    background-color: #447bc2;
+}
+
+#registerBox button:hover{
+    background-color: #3d4bc5;
+}

@@ -1,0 +1,77 @@
+.flex{
+display: flex;
+}
+
+body{
+    background-image: url(/src/img/background-destaque.webp);
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+}
+
+#loginBox{
+    width: 601px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#loginBox form{
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 53px;
+}
+
+#loginBox h3{
+    width: 91px;
+    height: 22px;
+    font-family:  "Cormorant", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #f3f3f3;
+}
+
+#loginBox input{
+    width: 246px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    margin-bottom: 19px;
+    border: none;
+    padding-left: 5px;
+}
+
+#loginBox button{
+    width: 132px;
+    height: 42px;
+    background-color: #0d478f;
+    border-radius: 5px;
+    font-family: "Cormorant", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f3f3;
+    border: none;
+    margin-top: 10px;
+}
+
+#registerBox{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Cormorant", sans-serif; 
+    font-weight: 500;
+    color: white;
+}
+
+#loginBox button:hover{
+    background-color: #2855b6;
+}

@@ -1,0 +1,133 @@
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+#mainPageHeader{
+    background-color: #0d478f;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#user{
+    align-items: center;
+}
+
+#mainPageHeader h4{
+    font-family: "Cormorant", serif;
+    color: white;
+    font-weight: 700;
+}
+
+#mainPageHeader img{
+    width: 49px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#mainPageHeader a{
+   width: 97px;
+   background-color: #0d478f;
+   text-decoration: none; 
+   height: 30px;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2px;
+}
+
+#mainPageHeader a p{
+    width: 65px;
+    height: 21px;
+    font-family: "Cormorant", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: white;
+}
+
+main{
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+form{
+    width: 601px;
+    height: 97px;
+    margin: 20px 0 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 0px #00000040;
+}
+
+form textarea{
+    border: none;
+    padding: 5px;
+}
+
+form div{
+    justify-content: flex-end;
+}
+
+form button{
+    width: 25px;
+    height: 25px;
+    background-color: #0d478f;
+    color: #F8E7E7;
+    border: none;
+    border-radius: 2px;
+    float: inline-end;
+    margin: 5px;
+}
+
+li{
+    display: flex;
+    align-items: initial;
+    width: 601px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 0px #00000040;
+}
+
+li img{
+    width: 71px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+li div{
+    margin-top: 10px;
+}
+
+li h4{
+    width: 104px;
+    height: 20px;
+    font-family: "Cormorant", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+li article{
+    width: 351px;
+    height: 133px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+form button:hover{
+    background-color: #0d478f;
+}
+
+#mainPageHeader a:hover{
+    background-color: #0d478f;
+}    
