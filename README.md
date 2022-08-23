@@ -4,5 +4,5 @@
 
 ### 🇺🇸 The idea of this project is to simulate a community, where all registered members can consume, create, update and delete text publications. Also put in practice the authentication flow in APIs.
 
-### webSite Link ~> https://special-spork-afc72724.pages.github.io/
+### webSite Link ~> https://luizassano.github.io/JS-Blog-luizassano/
 
